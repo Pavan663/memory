@@ -1,0 +1,20 @@
+#grid-container {
+    display: grid;
+    grid: 120px /auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  #grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding:10px;
+    font-size: 10px;
+  }
+#grid-container{
+    display:hide;
+  }
+#grid-container{
+  display: grid;
+}
+  

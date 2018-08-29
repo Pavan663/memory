@@ -1,0 +1,57 @@
+#grid-container{
+  display:none;
+}
+#grid-container {
+    display: grid;
+    grid: 250px /auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    margin-top:30px;
+    padding: 10px 10px 10px 10px;
+  }
+  #grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding:10px;
+    font-size: 10px;
+  }
+  .beer{
+    float: left;
+}
+.camel{
+    float: left;
+}
+.deer{
+    float: left;
+}
+.gorilla{
+    float: left;
+}
+.rabbit{
+    float: left;
+}
+.rhinoceros{
+    float: left;
+}
+.item {
+    position: relative;
+    float: right;
+}
+
+.item h1 {
+    text-align:center;
+    position: absolute;
+    line-height: 125px;
+    width: 100%;
+}
+
+svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.circle_animation {
+  stroke-dasharray: 440; 
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+}
